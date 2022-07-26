@@ -1,10 +1,15 @@
 /* Mobile Version */
 
-.nv {
-  position: static;
-  top: 0%;
+.bodynav {
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid #000000;
+  backdrop-filter: blur(10px);
+  width: 100%;
 }
 
+.op {
+  font-family: 'Readex Pro', sans-serif;
+}
 .hr {
   font-family: Plus Jakarta Sans;
   font-size: 24px;
@@ -31,6 +36,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.fs:hover {
+  color: #1018da;
+  transition: 0.3s;
 }
 
 .pp {
@@ -82,7 +92,7 @@
 
 .pjs1 {
   font-family: 'Plus Jakarta Sans';
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   margin-top: 0px;
   text-align: center;
@@ -90,7 +100,7 @@
 
 .ds1 {
   font-family: 'Plus Jakarta Sans';
-  font-weight: 500;
+  font-weight: 300;
   font-size: 16px;
   border: none;
   color: #000000;
@@ -134,10 +144,9 @@
 .pjd {
   margin-top: 50px;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   font-family: Plus Jakarta Sans;
-
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .fx {
@@ -152,7 +161,7 @@
   text-align: center;
   font-size: 24px;
   font-family: Plus Jakarta Sans;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .gp2 {
@@ -248,6 +257,14 @@
   width: 20%;
 }
 
+.tombol {
+  border: none;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: transparent;
+}
+
 @keyframes animasibintang {
   0% {
     opacity: 1;
@@ -268,9 +285,36 @@
   }
 }
 
+.pj1:hover .sc1 {
+  margin-top: 0px;
+  transition: 1s;
+}
+.pj1:hover .sc2 {
+  margin-top: 120px;
+  transition: 1s;
+}
+.pj1:hover .sc3 {
+  margin-top: 10px;
+  transition: 1s;
+}
+.pj1:hover {
+  background: radial-gradient(50% 250.12% at 50% 50%, #0da5e9 0%, #2686f5 100%);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+  transition: 3s;
+}
+
+.pj2:hover {
+  filter: drop-shadow(2px 4px 10px rgba(0, 0, 0, 0.25));
+  background-color: rgba(255, 255, 255, 1);
+  transition: 1s;
+}
+
 /*  DEKSTOP Version */
 
 @media (min-width: 992px) {
+  body {
+    cursor: none;
+  }
   .bt {
     animation: animasibintang 1.5s infinite alternate;
     margin-top: -800px;
@@ -286,9 +330,6 @@
   .bodynav {
     width: 1440px;
     height: 90px;
-    background: rgba(255, 255, 255, 0.05);
-    border-bottom: 0.5px solid #000000;
-    backdrop-filter: blur(5px);
   }
 
   .navq {
@@ -467,7 +508,7 @@
   }
 
   .gap-4 {
-    margin-left: 600px;
+    margin-left: 450px;
     margin-top: 20px;
   }
 
@@ -487,31 +528,8 @@
     margin-bottom: 100px;
   }
 
-  .pj1:hover .sc1 {
-    margin-top: 0px;
-    transition: 1s;
-  }
-  .pj1:hover .sc2 {
-    margin-top: 120px;
-    transition: 1s;
-  }
-  .pj1:hover .sc3 {
-    margin-top: 10px;
-    transition: 1s;
-  }
-  .pj1:hover {
-    background: radial-gradient(50% 250.12% at 50% 50%, #0da5e9 0%, #2686f5 100%);
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
-    transition: 3s;
-  }
   .pj2 {
     margin-bottom: 100px;
-  }
-
-  .pj2:hover {
-    filter: drop-shadow(2px 4px 10px rgba(0, 0, 0, 0.25));
-    background-color: rgba(255, 255, 255, 1);
-    transition: 1s;
   }
 
   .pjd {
@@ -733,6 +751,10 @@ h2 {
   background-color: gray;
   background-image: url(Study2/sw7.svg);
   background-size: cover;
+}
+
+.text-decoration-underline:hover {
+  color: #1018da;
 }
 
 /* Study1 DESKTOP Version */

@@ -597,43 +597,43 @@ h2 {
 .sd1 {
   width: 50%;
   height: 150px;
-  background-image: url(sd1.png);
+  background-image: url(img/sd1.png);
   background-size: cover;
 }
 .sd2 {
   width: 50%;
   height: 150px;
-  background-image: url(sd2.png);
+  background-image: url(img/sd2.png);
   background-size: cover;
 }
 .sd3 {
   width: 30%;
   height: 150px;
-  background-image: url(sd3.png);
+  background-image: url(img/sd3.png);
   background-size: cover;
 }
 .sd4 {
   width: 30%;
   height: 150px;
-  background-image: url(sd4.png);
+  background-image: url(img/sd4.png);
   background-size: cover;
 }
 .sd5 {
   width: 40%;
   height: 150px;
-  background-image: url(sd5.png);
+  background-image: url(img/sd5.png);
   background-size: cover;
 }
 .sd6 {
   width: 50%;
   height: 150px;
-  background-image: url(sd6.png);
+  background-image: url(img/sd6.png);
   background-size: cover;
 }
 .sd7 {
   width: 50%;
   height: 150px;
-  background-image: url(sd7.png);
+  background-image: url(img/sd7.png);
   background-size: cover;
 }
 

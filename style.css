@@ -128,13 +128,13 @@
 }
 
 .garis2 {
-  width: 1300px;
+  width: 100%;
   margin-top: 100px;
   margin-bottom: 100px;
   border: 1px solid #000000;
 }
 .garis {
-  width: 1300px;
+  width: 100%;
   border: 1px solid #000000;
 }
 #project {
@@ -184,6 +184,7 @@
 .cp {
   margin-top: 120px;
   margin-bottom: 40px;
+  width: 100%;
 }
 
 .wr1 {
@@ -249,12 +250,6 @@
   margin-top: -800px;
   margin-left: 220px;
   width: 40%;
-}
-.bj {
-  animation: animasibintang 2.5s infinite alternate;
-  margin-top: -50px;
-  margin-left: 50px;
-  width: 20%;
 }
 
 .tombol {
@@ -712,7 +707,7 @@ h2 {
 }
 
 .garis2 {
-  width: 1300px;
+  width: 100%;
   margin-top: 100px;
   margin-bottom: 100px;
   border: 1px solid #000000;

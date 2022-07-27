@@ -28,30 +28,39 @@
   <body>
     <!-- Navbar -->
 
-    <nav class="bodynav navbar navbar-expand-lg  w-100 position-fixed" style="margin-top: -140px; z-index: 99;">
+    <nav class="bodynav navbar navbar-expand-lg  sticky-top" style="z-index: 99" >
       <div class="container-fluid container">
-        <a class="navbar-brand op" href="index.html"><img src="img/block1.svg" alt=""> Javier Ramadhan</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand op" href="#"><img src="img/block1.svg" alt=""> Javier Ramadhan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="nv collapse navbar-collapse end-0" ; id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <div class="wrp1 mx-lg-2">
-              <div class="wr1">
-                <a class="navq nav-link mx-lg-2" aria-current="page" href="#project">Project</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="ui navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <div class="wrp1 mx-lg-2">
+                <div class="wr1">
+                  <a class="navq nav-link mx-lg-2" aria-current="page" href="index.html #project">Project</a>
+                </div>
               </div>
-            </div>
-            <div class="wrp1 mx-lg-2">
-              <div class="wr1">
-                <a class="navq nav-link mx-lg-2" href="explore.html">Exploration</a>
+            </li>
+            <li class="nav-item">
+              <div class="wrp1 mx-lg-2">
+                <div class="wr1">
+                  <a class="navq nav-link mx-lg-2" href="explore.html">Exploration</a>
+                </div>
               </div>
-            </div>
-            <div class="wrp1 mx-lg-2">
+            </li>
+            <li class="nav-item">
+              <div class="wrp1 mx-lg-2">
               <div class="wr1">
                 <a class="navq nav-link mx-lg-2" href="#">Resume</a>
               </div>
             </div>
-          </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled opacity-0";>Disabled</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

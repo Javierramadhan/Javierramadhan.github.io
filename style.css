@@ -669,6 +669,27 @@ h2 {
   z-index: 0;
 }
 
+.shape {
+  animation: animasiblock 3s infinite alternate ease-in;
+}
+@keyframes animasiblock {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(45deg);
+  }
+  50% {
+    transform: rotateZ(90deg);
+  }
+  75% {
+    transform: rotateZ(180deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
 /* EXPLORE DEKSTOP VER */
 @media (min-width: 992px) {
   p {
@@ -709,7 +730,7 @@ h2 {
   font-family: 'Plus Jakarta Sans';
   font-weight: 600;
   font-size: 20px;
-
+  border: none;
   color: #000000;
 }
 
